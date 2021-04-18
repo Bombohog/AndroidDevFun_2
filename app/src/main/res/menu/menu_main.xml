@@ -9,13 +9,16 @@
     <item android:id="@+id/action_order"
           android:title="@string/action_order"
           android:orderInCategory="10"
-          app:showAsAction="never"/>
+          android:icon="@drawable/ic_shopping_cart"
+          app:showAsAction="always"/>
     <item android:id="@+id/action_status"
           android:title="@string/action_status"
           android:orderInCategory="20"
-          app:showAsAction="never"/>
+          android:icon="@drawable/ic_status_info"
+          app:showAsAction="always"/>
     <item android:id="@+id/action_favorites"
           android:title="@string/action_favorites"
           android:orderInCategory="30"
-          app:showAsAction="never"/>
+          android:icon="@drawable/ic_favorite"
+          app:showAsAction="ifRoom"/>
 </menu>
